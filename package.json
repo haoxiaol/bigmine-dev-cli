@@ -1,0 +1,27 @@
+{
+  "name": "bigmine-dev-cli",
+  "version": "1.0.1",
+  "description": "前端项目工程化的探索,CLI工具,简单创建一个vue3demo.",
+  "main": "index.js",
+  "bin": {
+    "bigMine": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "BigMine"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.1",
+    "commander": "^8.0.0",
+    "cross-spawn": "^7.0.3",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.0",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.1.2",
+    "ora": "^5.4.1"
+  }
+}
